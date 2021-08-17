@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/d60ced752a.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
+
+    <title>Hello, world!</title>
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+    
+        #myBtn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- menu bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark"  style="background:rgb(234, 174, 0);">
+        <div class="container">
+            <a class="" href="#"><img class="img-fluid navbar-brand" src="image/logo.png" width="200"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mx-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-4" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class=" bg-warning border-0" type="search" placeholder=" Search.. " aria-label="Search">
+                    <button class="btn rounded-0 btn-primary text-white" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--menu Under part-->
+    
+    <div class="container-fluid bg-warning" id="home">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 my-auto text-white">
+                   
+                    <h1 class="fw-bold">First I wanted to be a veterianarian</h1>
+                    <p class="fw-bold">Lorem lpsum available but the majority have suffered alteration in some form, by injected humour randomised words.</p>
+                    
+                    <input type="submit" class="btn btn-lg  btn-primary" name="btn" value="ContactUs">
+                
+                    <input type="submit" class="btn  btn-lg btn-outline-light mx-1" name="btn" value="Our Service">
+                
+                </div>
+            
+                <div class="col-md-6 m-0 p-0">
+                    <img src="image/header.png" alt="" class="img-fluid pull-right p-0 m-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- video part-->
+    <div class="container-fluid">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6  my-auto ">
+                    <h1 class="display-4 fw-bold "> <b>As a Veterinarian and
+                            lover of animals</b></h1>
+                    <h5 class="py-3">Looking to quickly add Bootstrap e folks at MaxCDN. Using a package manager or need
+                        to download the source files? Head to the downloads page.</h5>
+                    <input type="submit" class="btn btn-warning text-white btn-lg " name="btn" value="our Service">
+                </div>
+                <div class="col-md-6">
+                    <img src="image/section1.png" alt="" class="img-fluid pull-right p-0 m-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--card Text-->
+    <div class="container-fluid bg-warning">
+        <div class="container py-5">
+            <div class="row justify-content-center text-center text-white">
+                
+                    <h1 class="display-4 "><b>Title Here</b></h1>
+                    <h5 class="col-md-6">Lorem lpsum available, but the majority have suffered alteration in some form.</h5>
+                
+            </div>
+            <div class="row row-cols-1 text-center row-cols-md-3 py-4 g-4 text-white">
+                <div class="col ">
+                    <div class="card bg-warning border-0">
+                        <img src="image/section21.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel">Veterinarian</h2>
+                            <h5 class="card-text" style="text-align: justify">This is a wider card with supporting text
+                                below as a natural
+                                lead-in to additional content. This content is a little bit longer.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-warning border-0">
+                        <img src="image/section22.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel">Veterinarian</h2>
+                            <h5 class="card-text" style="text-align: justify">This is a wider card with supporting text
+                                below as a natural
+                                lead-in to additional content. This content is a little bit longer.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-warning border-0">
+                        <img src="image/section23.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel">Veterinarian</h2>
+                            <h5 class="card-text" style="text-align: justify">This is a wider card with supporting text
+                                below as a natural
+                                lead-in to additional content. This content is a little bit longer.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- second Video Part-->
+    <div class="container-fluid">
+        <div class="container py-5">
+            <div class="row ">
+                <div class="col-md-6">
+                    <img src="image/section3.png" alt="" class="img-fluid pull-left p-0 m-0">
+                </div>
+                <div class="col-md-6  my-auto text-end" >
+                    <h1 class="display-4 fw-bold "> <b>As a Veterinarian and lover of animals</b></h1>
+                    <h5 class="py-3">Lorem lpsum available but the majoty suffered alteration in some form, by humour randomised words.</h5>
+                    <input type="button" value="our service" class="btn btn-warning  btn-lg text-right text-white">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--card Text-->
+    <div class="container-fluid bg-warning">
+        <div class="container py-5">
+            <div class="row justify-content-center text-center text-white">
+    
+                <h1 class="display-4 "><b>Title Here</b></h1>
+                <h5 class="col-md-6">Lorem lpsum available, but the majority have suffered alteration in some form.</h5>
+    
+            </div>
+            <div class="row row-cols-1 text-center row-cols-md-3 py-4 g-4 text-white">
+                <div class="col ">
+                    <div class="card bg-warning border-0">
+                        <img src="image/section41.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel"><span class="text-decoration-line-through px-1">$50 </span> <span class="px-1"> $30</span></h2>
+                            <button type="button" class="btn btn-primary btn-lg  rounded-pill" style="color:white;">Bay Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-warning border-0">
+                        <img src="image/section42.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel"><span class="text-decoration-line-through px-1">$50 </span> <span class="px-1"> $30</span></h2>
+                            <button type="button" class="btn btn-primary btn-lg rounded-pill" style="color:white;">Bay Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-warning border-0">
+                        <img src="image/section43.png" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel"><span class="text-decoration-line-through px-1">$50 </span> <span class="px-1"> $30</span></h2>
+                            <button type="button" class="btn btn-primary btn-lg rounded-pill" style="color:white;">Bay Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--dog part-->
+    <div class="container-fluid" id="about">
+        <div class="container py-5">
+            <div class="row justify-content-center text-center">
+    
+                <h1 class="display-4 "><b>The vetcare team</b></h1>
+                <h5 class="col-md-6">Lorem lpsum available, but the majority have suffered alteration in some form.</h5>
+    
+            </div>
+            <div class="row row-cols-1 text-center row-cols-md-3 py-4 g-5">
+                <div class="col ">
+                    <div class="card border-0">
+                        <img src="image/section51.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel">Jennifer Mullen</h2>
+                            <h5 class="card-text">VETERINARY</h5>
+                            <input type="button" class="btn btn-warning col-lg-6 p-0 m-0 border-0 rounded-0">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="image/section52.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel">Sheeren Collins</h2>
+                            <h5 class="card-text">ADMINISTRATION</h5>
+                            <input type="button" class="btn btn-warning col-lg-6 p-0 m-0 border-0 rounded-0">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="image/section53.jpg" class="card-img-top" alt="...">
+                        <div class="card-body px-0">
+                            <h2 class="card-titel">Jennifer Mullen</h2>
+                            <h5 class="card-text">VETERINARY</h5>
+                            <input type="button" class="btn btn-warning col-lg-6 p-0 m-0 border-0 rounded-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- numberning -->
+    <div class="container-fluid bg-warning text-white" id="service">
+        <div class="container text-center py-5">
+            <div class="row py-5">
+                <div class=" col-lg-4">
+                    <img src="image/section61.png" alt="" class="img-fluid">
+        
+                    <div class="pt-4">
+                        <h4>
+                            +34793<br>
+                            Happy Clients
+                        </h4>
+                    </div>
+        
+                </div>
+        
+                <div class=" col-lg-4">
+                    <img src="image/section62.png" alt="" class="img-fluid">
+        
+                    <div class="pt-4">
+                        <h4>
+                            +45382<br>
+                            Departament
+                        </h4>
+                    </div>
+        
+                </div>
+        
+                <div class=" col-lg-4">
+                    <img src="image/section63.png" alt="" class="img-fluid">
+        
+                    <div class="pt-4">
+                        <h4>
+                            +54762<br>
+                            Vaccinations
+                        </h4>
+                    </div>
+        
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- recent post -->
+
+    <!--card Text-->
+    <div class="container-fluid">
+        <div class="container py-5">
+            <div class="row justify-content-center text-center ">
+    
+                <h1 class="display-4 "><b>Recent Posts</b></h1>
+                <h5 class="col-md-5">Lorem lpsum available, but the majority have suffered alteration in some form.</h5>
+    
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 py-4 g-4 ">
+                <div class="col ">
+                    <div class="card border-0">
+                        <img src="image/section61.jpg" class="card-img-top" alt="...">
+                        <div class="card-body border border-top-0 border-3">
+                            <h4 class="card-titel">As aveterinarian and lovers of animals</h4>
+                            <h6 class="text-primary">FEBRUARY 09,2020</h6>
+                            <h6 class="card-text" style="text-align: justify">Lorem lpsum available, but the majority have suffered alteration in some words which look.</h6>
+                            <h6><a href="#" class="text-decoration-none">Reade More+</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card  border-0">
+                        <img src="image/section62.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <h4 class="card-titel">As aveterinarian and lovers of animals</h4>
+                            <h6 class="text-primary">FEBRUARY 10,2020</h6>
+                            <h6 class="card-text" style="text-align: justify">Lorem lpsum available, but the majority have suffered alteration in some words which look.</h6>
+                            <h6><a href="#" class="text-decoration-none">Reade More+</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <img src="image/section63.jpg" class="card-img-top" alt="...">
+                        <div class="card-body border border-top-0 border-3">
+                            <h4 class="card-titel">As aveterinarian and lovers of animals</h4>
+                            <h6 class="text-primary">FEBRUARY 11,2020</h6>
+                            <h6 class="card-text" style="text-align: justify">Lorem lpsum available, but the majority have suffered alteration in some words which look.</h6>
+                            <h6><a href="#" class="text-decoration-none">Reade More+</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid bg-dark text-white" id="contact">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-4 m-0 p-0">
+                    <h3>About</h3>
+                    <h6>History</h6>
+                    <h6>Our Team</h6>
+                    <h6>Brand Guidelines</h6>
+                    <h6>Teams & Condition</h6>
+                    <h6>Privacy Policy</h6>
+                </div>
+                <div class="col-md-4 m-0 p-0">
+                    <h3>Services</h3>
+                    <h6>How to Order</h6>
+                    <h6>Our Product</h6>
+                    <h6>Order Status</h6>
+                    <h6>Promo</h6>
+                    <h6>Payment Method</h6>
+                </div>
+                <div class="col-md-4 m-0 p-0 text-end" >
+                    <h3>Title Here</h3>
+                    <h6>Lorem lpsum available, but the majorit</h6>
+                    <div class="input-group input-group-lg my-3">
+                        <input type="text" class="form-control border-0 rounded-0 bg-warning" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                        <span class="input-group-text border-0 rounded-0 px-4" id="inputGroup-sizing-lg" style="background: rgb(0, 190, 202); "><i class="fab fa-telegram-plane fa-2x"></i></span>
+                    </div>
+                    <a class="btn btn-light rounded-circle link-dark" href="#" role="button"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-light rounded-circle link-dark" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light rounded-circle link-dark" href="#" role="button"><i class="fab fa-twitter "></i></a>
+                    <a class="btn btn-light rounded-circle link-dark" href="#" role="button"><i class="fab fa-whatsapp "></i></a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+
+</html>
